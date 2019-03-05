@@ -16,3 +16,5 @@ This repository stores the analyses done for the MGGG (mggg.org) Chicago project
 - precinct10a_runs.ipynb: performs a chain run for 10 wards with 3% population deviation, out of precincts
 - precinct10b_runs.ipynb: performs a chain run for 10 wards with 4% population deviation, out of precincts
 - precinct50_runs.ipynb: performs a chain run for 50 wards with 5% population deviation, out of precincts
+- demo_precinct_matching.ipynb: matches precincts by similarity of demographics
+- precinct_matching.ipynb: matches precincts by similarity of voting patterns
