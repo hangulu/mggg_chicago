@@ -1,6 +1,8 @@
 # Project-specific files
 legacy/
 surname_report/
+**/assignments/
+ensembles/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
