@@ -1,19 +1,11 @@
-# MGGG Chicago Report
+### MGGG Chicago Report Sensitivity Analysis
 
-## Contents
-
-- `ensembles/`
-
-  - Jupyter notebooks with our code for the MCMC runs generated using
-    [gerrychain](https://github.com/mggg/gerrychain). See also
-    [hangulu/mggg_chicago](https://github.com/hangulu/mggg_chicago) for Jupyter
-    notebooks that the notebooks included here are based on.
-  - `districtr_plans.zip`: Complete ensembles (50x1, 10x5, and 10x5 CA) in a
-    format that can be imported into
-    [Districtr](https://mggg.org/Districtr/new).
+#### Contents
 
 - `projection/`: Code and results of our demographic threshold model
   projections, as described in section 5 of the report.
+  - This version differs from that at [the MGGG repo](https://github.com/mggg/chicago) in that this contains sensitivity analysis of the numbers used for the projection. This code lives in [Sensitivity.ipynb](https://github.com/hangulu/mggg_chicago/blob/master/projection/projection/Sensitivity.ipynb)
+  - The results of the sensitivity analysis can be found in [sensitivity_analysis/](https://github.com/hangulu/mggg_chicago/tree/master/projection/projection/sensitivity_analysis).
 - `ranked_choice/`:
   - Ranked-choice ballot data from Cambridge, Minneapolis, and Oakland.
   - Partial candidate demographic identifications
@@ -26,7 +18,7 @@
   See also
   [mggg-states/IL-shapefiles](https://github.com/mggg-states/IL-shapefiles).
 
-## Ensembles
+#### Ensembles
 
 The output of our MCMC runs is too large to store on GitHub. We have hosted
 these files on MIT's storage instead:
@@ -40,3 +32,5 @@ These `.zip` archives each contain:
 - The tabular results of the run with the ward-level demographics of each
   districting plan in each of the ensembles, as well as
 - The precinct-to-ward assignments for every districting plan in each ensemble.
+
+You must download these files and put them in an `ensembles/` folder for the projection code to work.

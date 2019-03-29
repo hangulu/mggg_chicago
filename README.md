@@ -9,6 +9,7 @@ This repository stores the analyses done for the MGGG (mggg.org) Chicago project
 - [rrps_results/](rrps_results/): store of the results of the Chicago RRPS models
 - [run_results/](run_results/): store of the chain run results (pickled files)
 - [shapefiles/](shapefiles/): Chicago shapefiles
+- [projection/](projection/): The sensitivity analysis of the projection numbers used in the final report's model
 
 **Notebooks**
 
@@ -25,3 +26,7 @@ _RRPS_
 - [rrps_vrpm.ipynb](match_data/rrps_vrpm.ipynb): finds the RRPS of Chicago with the Voter Race Distribution Model, using Precinct Matching by demographics
 - [rrps_fcfp.ipynb](rrps_fcfp.ipynb): finds the RRPS of Chicago with the First-Choice Distribution Model, using Frequency Proportion
 - [rrps_fcpm.ipynb](rrps_fcpm.ipynb): finds the RRPS of Chicago with the First-Choice Distribution Model, using Precinct Matching by voting patterns
+
+_Sensitivity Analysis_
+
+- [Sensitivity.ipynb](projection/Sensitivity.ipynb): performs sensitivity analysis of the projection numbers used in the report.
